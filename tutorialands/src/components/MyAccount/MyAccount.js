@@ -1,6 +1,4 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
-import { indexMyAccount } from "../../utilities/tutorials-api";
 
 export default function MyAccount({ tutorial, setShowBoard, deleteTutorial }) {
 
