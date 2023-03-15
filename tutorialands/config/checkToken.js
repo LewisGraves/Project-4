@@ -9,8 +9,8 @@ function checkToken(req, res, next) {
 		token = token.replace("Bearer ", "");
 		// check if the token is valid and not expired
 		jwt.verify(token, process.env.SECRET, (err, decoded) => {
-			// if token is valid, decoded will be token's entire payload
-			// If token is invalid, err will set
+			// if token is valid and not expired, decoded will be the user object
+			// If token is invalid or expired, err will be set
 			if (err) {
 				req.user = null;
 			} else {
