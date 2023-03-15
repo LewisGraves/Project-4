@@ -9,7 +9,7 @@ and other guides for other users to follow. Tutorials can contain text, images, 
 
 ## App Gallery
 
-[Auth Page](./gallery/auth.png)
+![Auth Page](./gallery/auth.png)
 
 
 ## Technologies
