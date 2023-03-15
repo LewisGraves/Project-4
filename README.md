@@ -1,5 +1,4 @@
 # Tutorialands
-(working title)
 
 
 ## "Tutorialands" is a web app where users can guide each other
@@ -10,7 +9,7 @@ and other guides for other users to follow. Tutorials can contain text, images, 
 
 ## App Gallery
 
-place images here
+[Auth Page](./gallery/auth.png)
 
 
 ## Technologies
@@ -37,8 +36,15 @@ Trello Board: [Trello Board](https://trello.com/b/cn7mc7jn/p4)
 
 #### Version 2.0
 
+* Add a search bar to the home page
+* Ability to favorite tutorials
+* Add a favorites page
+
 #### Version 3.0
 
+* Add admin accounts
+* Add comments to tutorials
+* Ability to like or dislike tutorials
 ---
 
 ## Author
