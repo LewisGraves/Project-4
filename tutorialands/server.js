@@ -23,10 +23,9 @@ app.use(require("./config/checkToken"));
 // API routes
 app.use("/api/users", require("./routes/api/users"));
 app.use("/api/users/login", require("./routes/api/users"));
-app.use("/api/posts", require("./routes/api/posts"));
-app.use("/api/myboard", require("./routes/api/posts"));
-app.use("/api/posts/index", require("./routes/api/posts"));
-app.use("/api/comments", require("./routes/api/comments"));
+app.use("/api/tutorials", require("./routes/api/tutorials"));
+app.use("/api/myboard", require("./routes/api/tutorials"));
+app.use("/api/tutorials/index", require("./routes/api/tutorials"));
 
 // app.get("/*", (req, res) => {
 // 	res.sendFile(path.join(__dirname, "build", "index.html"));
