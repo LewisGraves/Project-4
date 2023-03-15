@@ -1,5 +1,5 @@
 .nav {
-    background-color: #FB8500;
+    background-color: #00be13;
 }
 
 .nav-link {
@@ -36,6 +36,6 @@
 #collapse {
     background-color: transparent;
     border-radius: 5px;
-    color: aliceblue;
-    border-color: aliceblue;
+    color: rgb(236, 236, 233);
+    border-color: rgb(236, 236, 233);
 }

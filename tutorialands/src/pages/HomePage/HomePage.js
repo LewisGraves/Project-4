@@ -47,7 +47,6 @@ export default function HomePage({ user }) {
 			<h1 className="my-2">Home</h1>
 			<button className="btn btn-info my-2" onClick={toggleFormVisiblity}>
 				New Tutorial 
-				{/* <i className="fa-solid fa-paw"></i> */}
 			</button>
 			{showForm && (
 				<CreateTutorial

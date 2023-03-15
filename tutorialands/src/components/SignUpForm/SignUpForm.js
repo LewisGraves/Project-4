@@ -21,7 +21,7 @@ export default class SignUpForm extends Component {
 	handleSubmit = async (event) => {
 		event.preventDefault();
 		try {
-			// taking the state, copying it and asigning it to formData
+			// taking the state, copying it and assigning it to formData
 			const formData = { ...this.state };
 			delete formData.error;
 			delete formData.confirm;
