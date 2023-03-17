@@ -54,6 +54,16 @@ export default function CreateTutorial({ toggleFormVisiblity, setTutorialArr }) 
 					/>
 					<label className="form-label">Text</label>
 				</div>
+				<div className="form-floating">
+					<textarea
+						className="form-control"
+						placeholder="Add Image URL"
+						name="image"
+						value={tutorial.image}
+						onChange={handleChange}
+					/>
+					<label className="form-label">Image</label>
+				</div>
 				<button
 					className="btn btn-primary mt-3 mb-3"
 					type="submit"

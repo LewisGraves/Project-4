@@ -25,7 +25,7 @@ export default function Tutorial({ tutorial, deleteTutorial, setTutorialArr, use
 						<button
 							className="btn btn-danger mx-2 my-2 btn-sm"
 							onClick={() => deleteTutorial(tutorial._id)}
-						>
+						>Delete
 						</button>
 						<Link to={`/tutorials/${tutorial._id}`}>
 							<UpdateModal />

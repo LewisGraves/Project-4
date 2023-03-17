@@ -39,7 +39,7 @@ export default function MyAccountPage() {
 
 	return (
 		<div className="container-sm">
-			<h1 className="my-2">My Board</h1>
+			<h1 className="my-2">My Account</h1>
 			{tutorialMap}
 		</div>
 	);
