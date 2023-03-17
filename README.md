@@ -11,6 +11,10 @@ and other guides for other users to follow. Tutorials can contain text, images, 
 
 ![Auth Page](./gallery/auth.png)
 
+![Home Page](./gallery/home.png)
+
+![My Account](./gallery/myaccount.png)
+
 
 ## Technologies
 
